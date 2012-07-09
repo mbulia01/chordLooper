@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1272D23315AB967300B764FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1272D23215AB967300B764FF /* UIKit.framework */; };
+		1272D23515AB967300B764FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1272D23415AB967300B764FF /* Foundation.framework */; };
+		1272D23715AB967300B764FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1272D23615AB967300B764FF /* CoreGraphics.framework */; };
+		1272D23D15AB967300B764FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1272D23B15AB967300B764FF /* InfoPlist.strings */; };
+		1272D23F15AB967300B764FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1272D23E15AB967300B764FF /* main.m */; };
+		1272D24315AB967300B764FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1272D24215AB967300B764FF /* AppDelegate.m */; };
+		1272D24615AB967300B764FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1272D24515AB967300B764FF /* ViewController.m */; };
+		1272D24915AB967300B764FF /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1272D24715AB967300B764FF /* ViewController_iPhone.xib */; };
+		1272D24C15AB967300B764FF /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1272D24A15AB967300B764FF /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1272D22E15AB967300B764FF /* tufts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tufts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1272D23215AB967300B764FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1272D23415AB967300B764FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1272D23615AB967300B764FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1272D23A15AB967300B764FF /* tufts-Info.plist */ = {isa = PBXFileReference; path = "tufts-Info.plist"; sourceTree = "<group>"; };
+		1272D23C15AB967300B764FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1272D23E15AB967300B764FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1272D24015AB967300B764FF /* tufts-Prefix.pch */ = {isa = PBXFileReference; path = "tufts-Prefix.pch"; sourceTree = "<group>"; };
+		1272D24115AB967300B764FF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1272D24215AB967300B764FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1272D24415AB967300B764FF /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1272D24515AB967300B764FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1272D24815AB967300B764FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		1272D24B15AB967300B764FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1272D22B15AB967300B764FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1272D23315AB967300B764FF /* UIKit.framework in Frameworks */,
+				1272D23515AB967300B764FF /* Foundation.framework in Frameworks */,
+				1272D23715AB967300B764FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1272D22315AB967300B764FF = {
+			isa = PBXGroup;
+			children = (
+				1272D23815AB967300B764FF /* tufts */,
+				1272D23115AB967300B764FF /* Frameworks */,
+				1272D22F15AB967300B764FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1272D22F15AB967300B764FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1272D22E15AB967300B764FF /* tufts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1272D23115AB967300B764FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1272D23215AB967300B764FF /* UIKit.framework */,
+				1272D23415AB967300B764FF /* Foundation.framework */,
+				1272D23615AB967300B764FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1272D23815AB967300B764FF /* tufts */ = {
+			isa = PBXGroup;
+			children = (
+				1272D24115AB967300B764FF /* AppDelegate.h */,
+				1272D24215AB967300B764FF /* AppDelegate.m */,
+				1272D24415AB967300B764FF /* ViewController.h */,
+				1272D24515AB967300B764FF /* ViewController.m */,
+				1272D24715AB967300B764FF /* ViewController_iPhone.xib */,
+				1272D24A15AB967300B764FF /* ViewController_iPad.xib */,
+				1272D23915AB967300B764FF /* Supporting Files */,
+			);
+			path = tufts;
+			sourceTree = "<group>";
+		};
+		1272D23915AB967300B764FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1272D23A15AB967300B764FF /* tufts-Info.plist */,
+				1272D23B15AB967300B764FF /* InfoPlist.strings */,
+				1272D23E15AB967300B764FF /* main.m */,
+				1272D24015AB967300B764FF /* tufts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1272D22D15AB967300B764FF /* tufts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1272D24F15AB967300B764FF /* Build configuration list for PBXNativeTarget "tufts" */;
+			buildPhases = (
+				1272D22A15AB967300B764FF /* Sources */,
+				1272D22B15AB967300B764FF /* Frameworks */,
+				1272D22C15AB967300B764FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tufts;
+			productName = tufts;
+			productReference = 1272D22E15AB967300B764FF /* tufts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1272D22515AB967300B764FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1272D22815AB967300B764FF /* Build configuration list for PBXProject "tufts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1272D22315AB967300B764FF;
+			productRefGroup = 1272D22F15AB967300B764FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1272D22D15AB967300B764FF /* tufts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1272D22C15AB967300B764FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1272D23D15AB967300B764FF /* InfoPlist.strings in Resources */,
+				1272D24915AB967300B764FF /* ViewController_iPhone.xib in Resources */,
+				1272D24C15AB967300B764FF /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1272D22A15AB967300B764FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1272D23F15AB967300B764FF /* main.m in Sources */,
+				1272D24315AB967300B764FF /* AppDelegate.m in Sources */,
+				1272D24615AB967300B764FF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1272D23B15AB967300B764FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1272D23C15AB967300B764FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1272D24715AB967300B764FF /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1272D24815AB967300B764FF /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		1272D24A15AB967300B764FF /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1272D24B15AB967300B764FF /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1272D24D15AB967300B764FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1272D24E15AB967300B764FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1272D25015AB967300B764FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tufts/tufts-Prefix.pch";
+				INFOPLIST_FILE = "tufts/tufts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1272D25115AB967300B764FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tufts/tufts-Prefix.pch";
+				INFOPLIST_FILE = "tufts/tufts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1272D22815AB967300B764FF /* Build configuration list for PBXProject "tufts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1272D24D15AB967300B764FF /* Debug */,
+				1272D24E15AB967300B764FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1272D24F15AB967300B764FF /* Build configuration list for PBXNativeTarget "tufts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1272D25015AB967300B764FF /* Debug */,
+				1272D25115AB967300B764FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1272D22515AB967300B764FF /* Project object */;
+}
