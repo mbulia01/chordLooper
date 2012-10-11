@@ -2,7 +2,7 @@
 //  ViewController.m
 //  tufts
 //
-//  Created by Chris Beltis on 7/9/12.
+//  Created by Max Bulian on 7/9/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -24,6 +24,15 @@
     [audioQueue insertObject:title atIndex:currentButton.tag];
 }
 
+-(IBAction)stop:(id)sender{
+    if (isPlaying) {
+        [button setImage:[UIImage imageNamed:@"play.png"] forState:UIControlStateNormal];
+        [audioPlayer stop];
+        isPlaying = false;
+        index = 0;
+    }
+}
+
 -(IBAction)playOrPause:(id)sender
 {   
     if (isPlaying) {
@@ -37,6 +46,8 @@
     }
 }
 
+//gets called when play button is pressed and whenever any chord ends
+//sets up audioplayer and then plays
 -(void)play
 {
     while ([audioQueue objectAtIndex:index] == @"") {
@@ -46,8 +57,8 @@
             index = 0;
         }
     }
-    //button = (UIButton*)[self.view viewWithTag:index];
-    //[self changeColor:button :[UIImage imageNamed:@"atbnss0354.gif"]];
+    /*currentButton = (UIButton*)[buttons objectAtIndex:index];
+    [currentButton setImage:[UIImage imageNamed:@"atbnss0354.gif"] forState:UIControlStateNormal];*/
     NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/%@.mp3", [[NSBundle mainBundle] resourcePath], [audioQueue objectAtIndex:index]]];
     NSError *error;
     audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
@@ -64,12 +75,8 @@
         index = 0;
     }
     isPlaying = false;
+    /*[currentButton setImage:[UIImage imageNamed:@"white.gif"] forState:UIControlStateNormal];*/
     [self play];
-}
-
--(void)changeColor:(UIButton*)button:(UIImage*)image
-{
-    [button setImage:image forState:UIControlStateNormal];
 }
 
 - (void)viewDidLoad
@@ -91,6 +98,18 @@
     
     index = 0;
     isPlaying = false;
+    
+    /*
+    buttons = [[NSMutableArray alloc] init];
+    int i = 0;
+    while (i<8) {
+        UIButton *temp;
+        temp = (UIButton*)[self.view viewWithTag:i];
+        [buttons insertObject:temp atIndex:i];
+        i = i+1;
+    }*/
+    
+    button = (UIButton*)[self.view viewWithTag:10];
 }
 
 - (void)viewDidUnload

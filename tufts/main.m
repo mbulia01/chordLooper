@@ -2,7 +2,7 @@
 //  main.m
 //  tufts
 //
-//  Created by Chris Beltis on 7/9/12.
+//  Created by Max Bulian on 7/9/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 

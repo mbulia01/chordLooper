@@ -2,7 +2,7 @@
 //  ViewController.h
 //  tufts
 //
-//  Created by Chris Beltis on 7/9/12.
+//  Created by Max Bulian on 7/9/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -13,12 +13,14 @@
 {
     NSMutableArray *chords; //contains chords that can be chosen
     NSMutableArray *audioQueue; //contains chords that will be played in order
+    NSMutableArray *buttons;
     NSArray *chordsInitArray;
     NSArray *audioQueueInit;
     IBOutlet UIPickerView *pickerView;
     IBOutlet UIButton *currentButton;
     AVAudioPlayer *audioPlayer;
     NSUInteger index;
+    UIButton *button;
     bool isPlaying;
 }
 

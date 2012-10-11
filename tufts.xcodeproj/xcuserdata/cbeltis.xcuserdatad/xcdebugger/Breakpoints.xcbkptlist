@@ -8,11 +8,37 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "tufts/ViewController.m"
-         timestampString = "370481407.763273"
+         timestampString = "371685663.708191"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "85"
-         endingLineNumber = "85"
+         startingLineNumber = "90"
+         endingLineNumber = "90"
+         landmarkName = "-viewDidLoad"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "tufts/AppDelegate.m"
+         timestampString = "371686000.52789"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "20"
+         endingLineNumber = "20"
+         landmarkName = "-application:didFinishLaunchingWithOptions:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "tufts/ViewController.m"
+         timestampString = "371686210.740953"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "105"
+         endingLineNumber = "105"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
