@@ -1,6 +1,5 @@
 Project: ChordLooper
 Author: Max Bulian
-Github project link: https://github.com/mbulia01/comp150
 
 Purpose:
 
